@@ -1,0 +1,63 @@
+# Model weights
+*.pdparams
+*.pth
+*.pt
+*.safetensors
+*.bin
+!vits.pth
+
+# Local data
+paddle_model_22k/
+paddle_model_22k_ft/
+pytorch_model.bin
+
+# Output
+output/
+firstrun/
+checkpoints/
+logs/
+runs/
+thirdrun/
+viz_output/
+extend_ft/
+
+# Results
+eval_results/
+monuseg_results/
+cpm17_results/
+search_result/
+search_reasult/
+consep_eval/
+consep_results/
+consep_viz/
+reeval/
+useless_output/
+__pycache__/
+
+# Compressed / binary
+*.zip
+*.tar.gz
+*.npz
+*.npy
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+*.egg
+
+# IDE
+.vscode/
+.idea/
+
+# Claude
+.claude/
+
+# Misc
+.DS_Store
+*.log
+*.png
+*.jpg
